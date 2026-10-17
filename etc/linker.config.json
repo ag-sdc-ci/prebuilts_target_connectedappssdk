@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_connectedappssdk-x86_64-v2.so",
+		    "libdummy_ext_connectedappssdk.so",
+		    "libdummy_shared_connectedappssdk-x86_64-v2.so",
+		    "libdummy_shared_connectedappssdk.so"
+	],
+	"visible": true
+}

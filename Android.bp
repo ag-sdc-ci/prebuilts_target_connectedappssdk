@@ -1,0 +1,34 @@
+// Auto-generated prebuilt Blueprint for external/connectedappssdk
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.connectedappssdk
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_import {
+    name: "ConnectedAppsSDK_Annotations",
+    host_supported: true,
+    jars: ["share/connectedappssdk/connectedapps-annotations.jar"],
+    prefer: true,
+}
+
+java_import {
+    name: "ConnectedAppsSDK_Test_Annotations",
+    host_supported: true,
+    jars: ["share/connectedappssdk/connectedapps-test-annotations.jar"],
+    prefer: true,
+}
+
+java_import {
+    name: "ConnectedAppsSDK",
+    host_supported: true,
+    jars: ["share/connectedappssdk/connectedapps-annotations.jar"],
+    prefer: true,
+}
+
+java_import {
+    name: "ConnectedAppsSDK_Testing",
+    host_supported: true,
+    jars: ["share/connectedappssdk/connectedapps-test-annotations.jar"],
+    prefer: true,
+}
